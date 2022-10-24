@@ -11644,7 +11644,7 @@ body.__gallery .photo--gallery img {
 }
 .popup-city .popup-city__choice {
   background: linear-gradient(267.36deg, #333 22.35%, #ba27a3 100%);
-  box-shadow: inset 0px 0px 4px 3px rgba(0, 204, 255, 0.25);
+  box-shadow: inset 0px 0px 4px 3px rgba(255, 255, 255, 0.25);
   z-index: 3;
   width: 100%;
   max-width: 620px;
@@ -11692,7 +11692,7 @@ body.__gallery .photo--gallery img {
   font-family: Intro;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 26px;
   line-height: 40px;
   text-align: center;
   color: #fff;
@@ -11740,7 +11740,7 @@ body.__gallery .photo--gallery img {
     margin-bottom: 25px;
   }
   .popup-city .popup-city__title {
-    max-width: 165px;
+    max-width: 235px;
     padding-top: 26px;
     margin: 0 auto;
   }
