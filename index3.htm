@@ -1,0 +1,1296 @@
+﻿<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#ba27a3" />
+    <meta name="application-name" content="GLobal Cyber" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#ba27a3" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+   
+    <style>
+      #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #252525;
+        z-index: 10000;
+      }
+
+      #loader {
+        display: block;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -75px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #ba27a3;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+      }
+
+      .__loaded #preloader {
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+        visibility: hidden;
+      }
+
+      #loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #ffffff;
+        -webkit-animation: spin 3s linear infinite;
+        animation: spin 3s linear infinite;
+      }
+
+      #loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #ba27a3;
+        -webkit-animation: spin 1.5s linear infinite;
+        animation: spin 1.5s linear infinite;
+      }
+
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <link
+      type="text/css"
+      media="all"
+      href="wp-content/cache/autoptimize/css/autoptimize_d17785aa4946cbc1f369cedc035de7cb.css"
+      rel="stylesheet"
+    />
+    <title>globalcyber -  компьютерный клуб в Алматы</title>
+    
+    <link rel="canonical" href="index.htm" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+   
+   
+   
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="500" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    
+   
+    <link
+      rel="stylesheet"
+      id="cyber-space-swiper-style-css"
+      href="ajax/libs/Swiper/4.5.0/css/swiper.min.css?ver=12061922"
+      type="text/css"
+      media="all"
+    />
+   
+    <link rel="shortlink" href="index.htm" />
+    
+  </head>
+  <body data-ocssl="1" itemscope="" >
+ 
+    <div id="preloader"><div id="loader"></div></div>
+    <div class="menu f f-col f-m-row">
+      <div class="menu--ico mobile">
+        <a href="tel:+77018882869" class="menu--ico__wrap">
+          <noscript
+            ><img
+              src="wp-content/themes/globalcyber/images/call.png"
+              alt="" /></noscript
+          ><img
+            class="lazyload"
+            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+            data-src="wp-content/themes/globalcyber/images/call.png"
+            alt=""
+          />
+        </a>
+      </div>
+      <a
+        href="index.htm#/home"
+        class="menu--logo"
+        data-anchor="#home"
+        data-action="anchor"
+        aria-label="GLobal Cyber – в Алматы"
+      >
+        <noscript
+          ><img
+            src="wp-content/themes/globalcyber/images/logo.svg"
+            alt="globalcyber" /></noscript
+        ><img
+          class="lazyload"
+          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+          data-src="wp-content/themes/globalcyber/images/logo.png"
+          alt="globalcyber"
+        />
+      </a>
+      <div class="menu--ico mobile" data-action="menu">
+        <div class="menu--ico__wrap">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="menu--nav f-1 f f-col">
+        <div class="menu--full f-1">
+          <a
+            href="index.htm#/about"
+            data-anchor="#about"
+            class="item"
+            data-action="anchor"
+            ><div class="item-ico">
+              <noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/menu/ghost.png"
+                  alt="" /></noscript
+              ><img
+                class="lazyload"
+                src="wp-content/themes/globalcyber/images/menu/ghost.png"
+                data-src="wp-content/themes/globalcyber/images/menu/ghost.png"
+                alt=""
+              />
+            </div>
+            <div class="item-text">О клубе</div>
+          </a>
+          <a
+            href="index.htm#/prices"
+            data-anchor="#prices"
+            class="item"
+            data-action="anchor"
+            ><div class="item-ico">
+              <noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/menu/profit.png"
+                  alt="" /></noscript
+              ><img
+                class="lazyload"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                data-src="wp-content/themes/globalcyber/images/menu/profit.png"
+                alt=""
+              />
+            </div>
+            <div class="item-text">Стоимость</div>
+          </a>
+          <a
+            href="index.htm#/services"
+            data-anchor="#services"
+            class="item"
+            data-action="anchor"
+            ><div class="item-ico">
+              <noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/menu/abduction.png"
+                  alt="" /></noscript
+              ><img
+                class="lazyload"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                data-src="wp-content/themes/globalcyber/images/menu/abduction.png"
+                alt=""
+              />
+            </div>
+            <div class="item-text">Услуги</div>
+          </a>
+          <a
+            href="index.htm#/devices"
+            data-anchor="#devices"
+            class="item"
+            data-action="anchor"
+            ><div class="item-ico">
+              <noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/menu/rocket.png"
+                  alt="" /></noscript
+              ><img
+                class="lazyload"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                data-src="wp-content/themes/globalcyber/images/menu/rocket.png"
+                alt=""
+              />
+            </div>
+            <div class="item-text">Оборудование</div>
+          </a>
+          <a
+            href="index.htm#/games"
+            data-anchor="#games"
+            class="item"
+            data-action="anchor"
+            ><div class="item-ico">
+              <noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/menu/galaxy.png"
+                  alt="" /></noscript
+              ><img
+                class="lazyload"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                data-src="wp-content/themes/globalcyber/images/menu/galaxy.png"
+                alt=""
+              />
+            </div>
+            <div class="item-text">Игры</div>
+          </a>
+          <a
+            href="index.htm#/news"
+            data-anchor="#news"
+            class="item"
+            data-action="anchor"
+            ><div class="item-ico">
+              <noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/menu/earth.png"
+                  alt="" /></noscript
+              ><img
+                class="lazyload"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                data-src="wp-content/themes/globalcyber/images/menu/earth.png"
+                alt=""
+              />
+            </div>
+            <div class="item-text">Новости</div>
+          </a>
+          <a
+            href="index.htm#/contacts"
+            data-anchor="#contacts"
+            class="item"
+            data-action="anchor"
+            ><div class="item-ico">
+              <noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/menu/solar-system.png"
+                  alt="" /></noscript
+              ><img
+                class="lazyload"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                data-src="wp-content/themes/globalcyber/images/menu/solar-system.png"
+                alt=""
+              />
+            </div>
+            <div class="item-text">Контакты</div>
+          </a>
+        
+          <div class="socials f f-center">
+            <a
+              class="f-1"
+              href="https://www.instagram.com/global.cyber.club/"
+              aria-label="Перейти на страницу globalcyber в Instagram"
+              ><noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/social_instagram.png"
+                  alt="" /></noscript
+              ><img
+                class="lazyload"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                data-src="wp-content/themes/globalcyber/images/social_instagram.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section id="home" class="f">
+        <div class="f f-m-col w100">
+          <div class="countdown f" id="counter">
+            <div class="countdown--bg"></div>
+            <div class="countdown--wrap f-1 f f-col f-center">
+              <noscript
+                ><img
+                  src="wp-content/themes/globalcyber/images/logo.svg"
+                  alt=""
+                  class="desktop" /></noscript
+              ><img
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                data-src="wp-content/themes/globalcyber/images/logo.png"
+                alt=""
+                class="lazyload desktop"
+              />
+              <div class="f-1 f-m-row f-m f f-center"></div>
+              <div
+                class="desc intro"
+                style="font-size: 200%; line-height: 120%"
+              >
+                престижный компьютерный клуб в Алматы!
+              </div>
+              <br />
+              <div class="desktop"></div>
+            </div>
+          </div>
+          <div class="sections __three">
+            <div class="sections--item">
+              <div
+                class="image"
+               
+              ><img src="1.webp"></div>
+              <div class="sections--item__wrap">
+                <div class="title f f-col">
+                  <h1 class="intro">600 тенге за час игры!</h1>
+                  <div
+                    class="desc"
+                    style="
+                      font-weight: 700;
+                      color: #ea4026;
+                      text-shadow: 0px 0px 17px #ea4026;
+                    "
+                  >
+                    Обновление - GeForce 2070 на борту
+                  </div>
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    class="btn"
+                    data-anchor="#about"
+                    data-action="navigation"
+                    >Узнать больше</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="sections--item">
+              <div
+                class="image __right"
+                style="
+                  background-image: url('wp-content/themes/globalcyber/images/__devices.png');
+                "
+              ></div>
+              <div class="sections--item__wrap">
+                <div class="title f f-col">
+                  <div class="intro">Девайсы</div>
+                  <div class="desc">Узнай что у нас есть</div>
+                </div>
+                <a
+                  href="#"
+                  class="btn"
+                  data-anchor="#devices"
+                  data-action="navigation"
+                  >Смотреть все</a
+                >
+              </div>
+            </div>
+            <div class="sections--item">
+              <div
+                class="image"
+                style="
+                  background-image: url('fon/1.jpg');
+                  top: -54px;
+                "
+              ></div>
+              <div class="sections--item__wrap">
+                <div class="title f f-col">
+                  <div class="intro">ЦЕНЫ</div>
+                  <div class="desc">Дыши <br> клубом</div>
+                </div>
+                <div>
+                  <a
+                  href="prices"
+                  class="btn"
+                  data-anchor="#prices"
+                  data-action="navigation"
+                  >Смотреть все</a
+                >
+                </div>
+              </div>
+            </div>
+            <div class="sections--item">
+              <div
+                class="image"
+                style="
+                  background-image: url('fon/2.jpg');
+                  top: -60px;
+                "
+                
+              ></div>
+              <div class="sections--item__wrap">
+                <div class="title f f-col">
+                  <div class="intro">КОНТАКТЫ</div>
+                  <div class="desc">Играй круглосуточно</div>
+                </div>
+                <div>
+                  <a
+                    href="#"
+                    class="btn"
+                    data-anchor="#contacts"
+                    data-action="navigation"
+                    >Узнать больше</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page--info f f-m-col" id="about">
+        <div class="page--left">
+          <h2
+            class="page--title"
+            data-aos="fade-right"
+            data-shadow="Global CYber"
+          >
+            Игра начинается
+          </h2>
+          <div class="page--description" data-aos="fade-up">
+            <p>
+              GLobal Cyber – престижный компьютерный клуб в Алматы, где каждый клиент найдет
+              себе игру по душе. Великое множество игр для великих игроков. Есть великое множество разных снэксов а также напитков для гурманов. А самое главное топовые машины!
+            </p>
+            <br />
+            <p>Игровая зона GLobal Cyber разделена на три зала:</p>
+            <p>- TUF Room на 50 машин</p>
+            <p>- Hyper X Room на 29 машин с профессиональным оборудованием</p>
+            <p>- ROG Room на 20 машин с профессиональным оборудованием</p>
+           
+          </div>
+          <a
+            href="#"
+            class="btn btn-m-full __blue"
+            data-aos="zoom-in"
+            data-anchor="#services"
+            data-action="navigation"
+            >Забронировать место</a
+          >
+        </div>
+        <div class="page--right __photo-group">
+          <div
+            class="photo--list __photo-image"
+            data-image="img/1.jpg"
+          >
+            <div>
+              <div class="image" data-aos="opacity">
+                <noscript
+                  ><img
+                    src="img/1.jpg"
+                    alt="" /></noscript
+                ><img
+                  class="lazyload"
+                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                  data-src="img/1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="image" data-aos="opacity">
+                <noscript
+                  ><img
+                    src="img/2.jpg"
+                    alt="" /></noscript
+                ><img
+                  class="lazyload"
+                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                  data-src="img/2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div>
+              <div class="image" data-aos="opacity">
+                <noscript
+                  ><img
+                    src="img/3.jpg"
+                    alt="" /></noscript
+                ><img
+                  class="lazyload"
+                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                  data-src="img/3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="image" data-aos="opacity">
+                <noscript
+                  ><img
+                    src="img/4.jpg"
+                    alt="" /></noscript
+                ><img
+                  class="lazyload"
+                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                  data-src="img/4.jpg"
+                  alt=""
+                />
+              </div>
+           
+            </div>
+          </div>
+          <div
+            class="__photo-image"
+            style="display: none"
+            data-image="img/1.jpg"
+          ></div>
+          <div
+          class="__photo-image"
+          style="display: none"
+          data-image="img/2.jpg"
+        ></div>
+        <div
+        class="__photo-image"
+        style="display: none"
+        data-image="img/3.jpg"
+      ></div>
+      <div
+      class="__photo-image"
+      style="display: none"
+      data-image="img/4.jpg"
+    ></div>
+    <div
+    class="__photo-image"
+    style="display: none"
+    data-image="img/5.jpg"
+  ></div>
+    
+      
+        </div>
+      </section>
+      <section class="page--info __m-content __collapse" id="prices">
+        <div class="page--left __full">
+          <h2 class="page--title" data-aos="fade-right" data-shadow="Цена">
+            Стоимость
+          </h2>
+          <div class="f f-wrap">
+            <div class="services--places__table __three">
+              <div class="services--places__table-title f">
+                <div></div>
+                <div>TUF Room</div>
+                <div>HYPER  Room</div>
+                <div>ROG Room</div>
+              </div>
+              <div class="services--places__table-wrap">
+                <div class="__title">1 час</div>
+                <div class="__text">600 тг.</div>
+                <div class="__text">800 тг.</div>
+                <div class="__text">1200 тг.</div>
+                <div class="__title">Пакет 2+1</div>
+                <div class="__text">1200 тг.</div>
+                <div class="__text">1600 тг.</div>
+                <div class="__text">2500 тг.</div>
+                <div class="__title">
+                  Пакет 3+2
+                </div>
+                <div class="__text">1600 тг.</div>
+                <div class="__text">2400 тг</div>
+                <div class="__text">3500 тг</div>
+                <div class="__title">Пакет 4+3</div>
+                <div class="__text">2200 тг.</div>
+                <div class="__text">3200 тг.</div>
+                <div class="__text">4500 тг</div>
+                <div class="__title">
+                  Пакет NIGHT
+                </div>
+                <div class="__text">2500 тг.</div>
+                <div class="__text">3000 тг</div>
+                <div class="__text">4000 тг</div>
+              </div>
+            </div>
+            <div class="services--places__table __three">
+              <div class="services--places__table-title f">
+                <div></div>
+                <div style="width: 59%;">ВЫХОДНЫЕ</div>
+                
+              </div>
+              <div class="services--places__table-wrap">
+                <div class="__title">1 час</div>
+                <div class="__text">700 тг.</div>
+                <div class="__text">1000 тг.</div>
+                <div class="__text">1500 тг.</div>
+                <div class="__title">Пакет 2+1</div>
+                <div class="__text">1300 тг.</div>
+                <div class="__text">1800 тг.</div>
+                <div class="__text">3000 тг.</div>
+                <div class="__title">
+                  Пакет 3+2
+                </div>
+                <div class="__text">1700 тг.</div>
+                <div class="__text">2600 тг</div>
+                <div class="__text">4000 тг</div>
+                <div class="__title">Пакет 4+3</div>
+                <div class="__text">2300 тг.</div>
+                <div class="__text">3400 тг.</div>
+                <div class="__text">5000 тг</div>
+                <div class="__title">
+                  Пакет NIGHT
+                </div>
+                <div class="__text">2600 тг.</div>
+                <div class="__text">3200 тг</div>
+                <div class="__text">5000 тг</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services--price intro w100 ___xx" style="width: 100%; text-align: center;">
+          <div>АКЦИЯ 08:00 - 15:00</div>
+          <div class="__price">
+            <a  class="intro"
+              >50% скидка на часовой тариф!</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="page--info __hm __collapse" id="services">
+        <div class="page--left __full">
+          <h2 class="page--title" data-aos="fade-right" data-shadow="Играй">
+            Услуги
+          </h2>
+          <div class="tabs" data-id="services" data-aos="opacity">
+            <a
+              href="#"
+              class="tabs--tab __active"
+              data-action="tab"
+              data-wrap="games"
+              data-tab="service_games"
+              data-tab-name="Игровой зал"
+              >Игровой зал</a
+            >
+            <a
+              href="#"
+              class="tabs--tab"
+              data-action="tab"
+              data-wrap="vip"
+              data-tab="service_vip"
+              data-tab-name="VIP-зал"
+              >TUF Room</a
+            >
+            <a
+              href="#"
+              class="tabs--tab"
+              data-action="tab"
+              data-wrap="super-vip"
+              data-tab="service_vip"
+              data-tab-name="Super VIP-зал"
+              >HYPER X Room</a
+            >
+            <a
+              href="#"
+              class="tabs--tab"
+              data-action="tab"
+              data-calc="0"
+              data-wrap="rooms"
+              data-tab="service_rooms"
+              data-tab-name="Комнаты"
+              >ROG Room</a
+            >
+            <a
+              href="#"
+              class="tabs--tab"
+              data-action="tab"
+              data-calc="0"
+              data-wrap="bar"
+              data-tab="service_bar"
+              data-tab-name="Комнаты"
+              >Еда-Бар</a
+            >
+          </div>
+          <div class="services--wrap">
+            <div class="page--description w50 mt2" data-aos="opacity">
+              <div data-tab-desc="games">
+                Мы приглашаем Вас в глобальный мир Cyber Club. 99 машин с отличными девайсами, удобные профессиональные кресла для киберспортсменов и большое количество игр на любой вкус, вы найдете в нашей Игровой room-e.
+              </div>
+              <div class="hide" data-tab-desc="vip">
+                Для любителей высококлассного оборудования GLobal Cyber Club открывает двери в TUF-room. Даже самые опытные геймеры будут впечатлены этими 49 машинами, оснащенными компьютерами профессионального уровня.
+              </div>
+              <div class="hide" data-tab-desc="super-vip">
+                29 машин с отличными девайсами, удобные профессиональные кресла для киберспортсменов и большое количество игр на любой вкус, вы найдете в нашей HYPER X room-e.
+              </div>
+              <div class="hide" data-tab-desc="rooms">
+                ROG Room - 20 машин киберпространства с самым мощным оборудованием и игровыми креслами премиум-класса. В ROG Room вы можете не только поиграть в любимую игру на сверхмощном компьютере, но и покурить любимый кальян в приятной компании.
+              </div>
+              <div class="hide" data-tab-desc="bar">
+                Дымный кальян, горячая кухня, большой выбор
+                снэксов, дружелюбная атмосфера в Glabal Cyber Club – что может
+                быть лучше после потной игры? 
+              </div>
+            </div>
+            <div>
+              <div class="services--price intro w100 ___xx" style="width: 100%">
+                <div>Забронируйте место по телефону</div>
+                <div class="__price">
+                  <a href="tel:+77018882869" class="intro"
+                    >+7 (701) 888-28-69</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page--info __hm __m-content" id="devices">
+        <div class="page--left __full">
+          <h2 class="page--title" data-aos="fade-right" data-shadow="Девайсы">
+            Оборудование
+          </h2>
+          <div class="devices">
+            <div class="devices--grid slider __devices clearfix">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="item __float-r __text-r swiper-slide">
+                    <div class="item-wrap f-m-col" data-aos="opacity">
+                      <div class="item-image">
+                        <noscript
+                          ><img
+                            src="dx.png"
+                            alt="" /></noscript
+                        ><img
+                          class="lazyload"
+                          src="dx.png"
+                          data-src="dx.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-main">
+                        <div class="item-title intro">Кресла</div>
+                        <div class="item-description">
+                          <div>TUF Room</div>
+                          Chairman Game22<br />
+                          <br />
+                          <div>HYPER X Room</div>
+                          DXRACER<br /><br />
+                          <div>ROG Room</div>
+                          DXRACER
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item __float-l __text-l swiper-slide">
+                    <div class="item-wrap f-m-col" data-aos="opacity">
+                      <div class="item-image">
+                        <noscript
+                          ><img
+                            src="wp-content/themes/globalcyber/images/devices/3.png"
+                            alt="" /></noscript
+                        ><img
+                          class="lazyload"
+                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                          data-src="wp-content/themes/globalcyber/images/devices/3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-main">
+                        <div class="item-title intro">Система</div>
+                        <div class="item-description">
+                          <div>TUF Room</div>
+                          Intel Core i5-9400F<br />
+                          Palit GeForce GTX 1660TI 6 GB<br />
+                          RAM 16Gb DDR4 3200MHz<br />
+                          
+                          <br />
+                          <div>HYPER X Room</div>
+                          Intel Core i5-9400F<br />
+                          Nvidia GeForce RTX 2060 Super 8GB<br />
+                          RAM 16Gb DDR4 3200MHz<br />
+                          
+                          <br />
+                          <div>ROG Room</div>
+                          Intel Core i7-8700<br />
+                          GeForce RTX 2070 Super 8GB<br />
+                          RAM 16Gb DDR4 3200MHz<br />
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item __float-l __text-r swiper-slide">
+                    <div class="item-wrap f-m-col" data-aos="opacity">
+                      <div class="item-image">
+                        <noscript
+                          ><img
+                            src="wp-content/themes/globalcyber/images/devices/1new.png"
+                            alt="" /></noscript
+                        ><img
+                          class="lazyload"
+                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                          data-src="wp-content/themes/globalcyber/images/devices/1new.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-main">
+                        <div class="item-title intro">Мониторы</div>
+                        <div class="item-description">
+                          <div>TUF Room</div>
+                          ASUS vg279 27' 144Hz <br />
+                          <br />
+                          <div>HYPER X Room</div>
+                          ASUS vg279 27' 144Hz <br />
+                          <br />
+                          <div>ROG Room</div>
+                          ASUS ROG STRIX XG258Q 25.5' 240Hz 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item __float-r __text-l swiper-slide">
+                    <div class="item-wrap f-m-col" data-aos="opacity">
+                      <div class="item-image">
+                        <noscript
+                          ><img
+                            src="wp-content/themes/globalcyber/images/devices/2new.png"
+                            alt="" /></noscript
+                        ><img
+                          class="lazyload"
+                          src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+                          data-src="wp-content/themes/globalcyber/images/devices/2new.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="item-main">
+                        <div class="item-title intro">Девайсы</div>
+                        <div class="item-description">
+                          <div>TUF Room</div>
+                          Гарнитура:<br />
+                          Hyperx cloud 2<br />
+                          Мышь:<br />
+                          HyperX Pulsefire Core<br />
+                          Клавиатура:<br />
+                          A4 Bloody B810R <br />
+                          <br />
+                          <div>HYPER X Room</div>
+                          Гарнитура:<br />
+                          Hyper X Cloud 2 <br />
+                          Мышь:<br />
+                          HyperX Pulsefire SURGE<br />
+                          Клавиатура:<br />
+                          HyperX Alloy FPS PRO<br />
+                          <br />
+                          <br />
+                          <div>ROG Room</div>
+                          Гарнитура:<br />
+                          ASUS ROG DELTAA<br />
+                          Мышь:<br />
+                          ASUS ROG GLADIUS 2 Core<br />
+                          Клавиатура:<br />
+                          ASUS ROG STRIX SCOPE TKL DELUXE<br />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button role="button" class="slider--prev"></button>
+                <button role="button" class="slider--next"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="page--inf __m-content f f-m-col __full __content"
+        id="games"
+      >
+        <div class="page--left __full rel">
+          <div class="page--info pt0 pb0">
+            <h2
+              class="page--title"
+              data-aos="fade-right"
+              data-shadow="Global Cyber"
+            >
+              Игры
+            </h2>
+          </div>
+          <div class="games">
+            <div class="swiper-container" data-aos="opacity">
+              <div class="swiper-wrapper">
+                <div class="item-group swiper-slide f f-col">
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                          data-src="games/1.jpg"
+                          class="swiper-lazy"
+                          alt="PUBG Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">PUBG</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/2.jpg"
+                          class="swiper-lazy"
+                          alt="Overwatch Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">Overwatch</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-group swiper-slide f f-col">
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                          data-src="games/3.jpg"
+                          class="swiper-lazy"
+                          alt="Dota 2 Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">Dota 2</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/4.jpg"
+                          class="swiper-lazy"
+                          alt="Counter strike Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">Counter strike</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-group swiper-slide f f-col">
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/5.jpg"
+                          class="swiper-lazy"
+                          alt="GTA 5/Online Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">GTA 5/Online</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/6.jpg"
+                          class="swiper-lazy"
+                          alt="WoW Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">WoW</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-group swiper-slide f f-col">
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/7.jpg"
+                          class="swiper-lazy"
+                          alt="World of Tanks Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">World of Tanks</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/8.jpg"
+                          class="swiper-lazy"
+                          alt="Heartstone Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">Heartstone</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-group swiper-slide f f-col">
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                          data-src="games/1.jpg"
+                          class="swiper-lazy"
+                          alt="PUBG Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">PUBG</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/2.jpg"
+                          class="swiper-lazy"
+                          alt="Overwatch Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">Overwatch</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-group swiper-slide f f-col">
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                          data-src="games/3.jpg"
+                          class="swiper-lazy"
+                          alt="Dota 2 Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">Dota 2</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/4.jpg"
+                          class="swiper-lazy"
+                          alt="Counter strike Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">Counter strike</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-group swiper-slide f f-col">
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/5.jpg"
+                          class="swiper-lazy"
+                          alt="GTA 5/Online Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">GTA 5/Online</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/6.jpg"
+                          class="swiper-lazy"
+                          alt="WoW Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">WoW</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-group swiper-slide f f-col">
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/7.jpg"
+                          class="swiper-lazy"
+                          alt="World of Tanks Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">World of Tanks</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-wrap">
+                      <div class="item-image">
+                        <img
+                        data-src="games/8.jpg"
+                          class="swiper-lazy"
+                          alt="Heartstone Global Cyber CLub"
+                        />
+                      </div>
+                      <div class="item-title intro">Heartstone</div>
+                    </div>
+                  </div>
+                </div>
+               
+              
+                <button role="button" class="slider--prev"></button>
+                <button role="button" class="slider--next"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section
+        class="page--info __m-content rel __right f f-m-col"
+        id="contacts"
+      >
+        <div class="page--left">
+          <div
+            class="page--title"
+            data-aos="fade-right"
+            data-shadow="Ждем вас!"
+          >
+            Контакты
+          </div>
+          <div class="contacts--group" data-aos="opacity">
+            <div class="label">Адрес</div>
+            <div class="intro">
+              <a href=""
+                >Алматы <br />
+               Гагарина 250</a
+              >
+            </div>
+          </div>
+          <div class="contacts--group" data-aos="opacity">
+            <div class="label">Телефон</div>
+            <a href="tel:+77018882869" class="intro">+7 (701) 888-28-69</a>
+          </div>
+          <div class="contacts--group" data-aos="opacity">
+            <div class="label">E-mail</div>
+            <a href="mailto:globalcyberclub@gmail.com" class="intro"
+              >globalcyber@mail.com</a
+            >
+          </div>
+          <div class="contacts--group" data-aos="opacity">
+            <div class="label">Режим работы</div>
+            <div class="intro">Круглосуточно 24/7</div>
+          </div>
+          <div class="contacts--group" data-aos="opacity">
+            <div class="label">Выбор филиала </div>
+            <div class="popup-citym__choice-buttons">
+              <a
+                class="popup-citym__choice-button"
+                style="opacity: 0.3"
+                data-city="Гагарина"
+                >Гагарина 250</a
+              >
+              <a
+                href="index2.htm"
+                class="popup-citym__choice-button"
+                data-city=""
+                >Жетысу 1, 28a</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="page--right contacts--map" data-aos="opacity">
+          <!-- <noscript
+            ><img
+              src="wp-content/themes/globalcyber/images/map.png"
+              alt="" /></noscript
+          ><img
+            class="lazyload"
+            src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
+            data-src="wp-content/themes/globalcyber/images/map.png"
+            alt=""
+          /> -->
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.kz/maps/162/almaty/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Алматы</a><a href="https://yandex.kz/maps/162/almaty/house/Y08Yfg5oQUYDQFppfX5xeHhnZA==/?ll=76.898833%2C43.209440&utm_medium=mapframe&utm_source=maps&z=16.1" style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Гагарина, 250 — Яндекс Карты</a><iframe src="https://yandex.kz/map-widget/v1/-/CCUbYOwWPD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </div>
+      </section>
+      <div class="footer f f-acenter">
+      
+        <div class="f-1 center">“GLobal Cyber CLub” 2022 </div>
+       
+      </div>
+    </main>
+   
+    <div class="photo--gallery">
+      <div class="photo--gallery__wrap">
+        <div class="photo--gallery__image"></div>
+        <div class="photo--gallery__arrow __left"></div>
+        <div class="photo--gallery__close"></div>
+        <div class="photo--gallery__count"></div>
+        <div class="photo--gallery__arrow __right"></div>
+      </div>
+    </div>
+    <div id="popup" class="popup">
+      <div class="popup--wrap">
+        <div class="popup--title">
+          <div class="intro"></div>
+          <div class="desc"></div>
+        </div>
+        <div class="popup--close" data-action="popup_close"></div>
+        <div class="popup--message"></div>
+      </div>
+    </div>
+  
+    <style>
+      .lazyload,
+      .lazyloading {
+        opacity: 0;
+      }
+      .lazyloaded {
+        opacity: 1;
+        transition: opacity 300ms;
+      }</style
+    ><noscript
+      ><style>
+        .lazyload {
+          display: none;
+        }
+      </style></noscript
+    >
+    <script data-noptimize="1">
+      window.lazySizesConfig = window.lazySizesConfig || {};
+      window.lazySizesConfig.loadMode = 1;
+    </script>
+    <script
+      async=""
+      data-noptimize="1"
+      src="wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="aos%402.3.1/dist/aos.js?ver=1106192"
+    ></script>
+    <script
+      type="text/javascript"
+      src="ajax/libs/Swiper/4.5.0/js/swiper.min.js?ver=1106192"
+    ></script>
+    <script
+      type="text/javascript"
+      defer=""
+      src="wp-content/cache/autoptimize/js/autoptimize_d6aeba70f8a779ebcc06cace69fb450c.js"
+    ></script>
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          instagram: "global.cyber.club", // Instagram username
+          whatsapp: "+77018882869", // WhatsApp number
+          call_to_action: "Ждем Вас!", // Call to action
+          button_color: "rgb(186, 39, 163)", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "whatsapp,instagram", // Order of buttons
+      };
+      var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
+  </body>
+</html>
